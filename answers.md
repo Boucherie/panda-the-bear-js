@@ -47,9 +47,23 @@ body.style.fontFamily  = ('monospace');
 
 6. Find a way to select the round icons in the sidebar and then change their colour.
 
+
+buttons = document.querySelectorAll('.action-icon-container')
+buttons.forEach(function(item) {(item.backgroundColor = "black") });
+
 7. Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
 
+var textInputs = document.querySelector('input[name="name"]')
+undefined
+textInputs
+<input type=​"text" name=​"name" class=​"contact-info" id=​"name" placeholder=​"Name">​
+textInputs.placeholder = "identify yourself";
+"identify yourself"
+
+
 8. Change the placeholder attribute of the message field to "state your business".
+
+
 
 9. Give the name field a "value" attribute of "your nemesis".
 
