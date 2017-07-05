@@ -77,7 +77,25 @@ nemesisName.value ='Your Nemesis'
 
 10. Change the value attribute of the email field to "koalathebear@gmail.com".
 
+var email = document.querySelector('#email')
+undefined
+email
+<input type=​"email" name=​"email" class=​"contact-info" id=​"email" placeholder=​"Email">​
+email.value = "koalathebear@gmail.com"
+
+"koalathebear@gmail.com"
+
+
+
 11. Change the value of the submit button on the contact form to "En garde!".
+
+var button = document.querySelector('#submit')
+undefined
+button
+<input type=​"submit" name=​"submit" id=​"submit" value=​"Submit">​
+button.value = 'En garde!'
+"En garde!"
+
 
 12. We should stop Koala from sending an email to Panda that they might regret! Find a way to disable the submit button (hint: familiarize yourself with the disabled attribute).
 
