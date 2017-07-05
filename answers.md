@@ -99,4 +99,12 @@ button.value = 'En garde!'
 
 12. We should stop Koala from sending an email to Panda that they might regret! Find a way to disable the submit button (hint: familiarize yourself with the disabled attribute).
 
+button.disabled = 'disabled'
+"disabled"
+
 13. We should help Panda protect their privacy by clearing their personal details from the sidebar. You can use reset() to do this.
+
+var privacy = document.querySelectorAll('span.bio-info-value')
+
+privacy.forEach(function(item) {item.innerText=""})
+undefined
