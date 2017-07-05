@@ -63,9 +63,17 @@ textInputs.placeholder = "identify yourself";
 
 8. Change the placeholder attribute of the message field to "state your business".
 
+var messageInputs = document.querySelector('input[name="message"]')
+undefined
+messageInputs.placeholder = "State your business";
 
 
 9. Give the name field a "value" attribute of "your nemesis".
+
+var nemesisName = document.querySelector('#name')
+nemesisName.value ='Your Nemesis'
+"Your Nemesis"
+
 
 10. Change the value attribute of the email field to "koalathebear@gmail.com".
 
